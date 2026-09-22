@@ -1,0 +1,6 @@
+{
+  "name": "TaxSnap AI",
+  "description": "Smart receipt scanner using Gemini Vision AI with tax deduction categorization, CSV/Excel export, and RevenueCat subscription management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
