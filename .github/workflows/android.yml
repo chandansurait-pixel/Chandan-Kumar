@@ -17,10 +17,10 @@ jobs:
         distribution: 'temurin'
         java-version: '17'
 
-    - name: Setup Gradle
-      uses: gradle/actions/setup-gradle@v3
+    - name: Setup Gradle Wrapper
+      run: gradle wrapper
 
-    - name: Build APK & AAB
+    - name: Build APK
       run: |
         chmod +x gradlew
         ./gradlew assembleDebug
